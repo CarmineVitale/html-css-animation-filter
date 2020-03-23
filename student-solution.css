@@ -101,3 +101,40 @@
     transform: rotate(0);
   }
 }
+/* Esercizio numero 12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation: changeone 1s;
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: changetwo 1s;
+}
+@keyframes changeone {
+  0% {
+      left: 10%;
+  }
+  50% {
+      left: calc(100% - 60px);
+  }
+  100% {
+      left: 10%;
+  }
+}
+@keyframes changetwo {
+  0% {
+      right: 10%;
+  }
+  50% {
+      right: calc(100% - 60px);
+  }
+  100% {
+      right: 10%;
+  }
+}
+
+/* Esercizio numero 13 */
+.ex-13-button:hover .ex-13-top-white {
+  animation:  ;
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: ;
+}
